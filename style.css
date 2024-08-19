@@ -9,10 +9,15 @@ body {
 }
 
 /* Header and Footer */
-header, footer {
+header {
+  margin-top: 100px;
   text-align: center;
-  background-color: #003049;
-  color: white;
+  color: #003049;
+}
+
+footer {
+  text-align: center;
+  color: #003049;
   padding: 10px 0;
 }
 
@@ -20,6 +25,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 nav ul li {
@@ -28,8 +34,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
-  text-decoration: none;
+  color: #d62828;
+
 }
 
 nav ul li a:hover {
@@ -40,15 +46,38 @@ nav ul li a:hover {
 #about h2 {
   font-size: 2em;
   text-align: center;
+  margin-top: 100px;
+  color: #003049;
 }
 
 #about h3 {
   font-size: 1.5em;
   text-align: center;
+  color: #003049;
 }
 
-#about p, #about ul {
-  text-align: center;
+#about p {
+  text-align: left;
+  margin-left: 30%;
+  color: #003049;
+  align-items: left;
+}
+
+#about p a {
+  color: #d62828;
+}
+
+#about ul {
+  text-align: left;
+  margin-left: 30%;
+  color: #003049;
+}
+
+hr {
+  border: 1px solid black;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .image-circle {
@@ -62,35 +91,57 @@ nav ul li a:hover {
 #portfolio h2 {
   font-size: 2em;
   text-align: center;
+  color: #003049;
 }
 
 #portfolio h3 {
   font-size: 1.5em;
-  text-align: center;#portfolio img {
-    display: block;
-    margin: 0 auto;
-  }
+  text-align: center;
+  color: #003049;
+}
 
-  /* Contact Section */
-  #contact h2 {
-    font-size: 2em;
-    text-align: center;
-  }
+#portfolio img {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
 
-  #contact p, #contact ol {
-    text-align: center;
-  }
+figcaption {
+  text-align: center;
+  color: #003049;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: x-large;
+}
 
-  #contact ol {
-    list-style-type: decimal;
-  }
 
-  #contact ol li a {
-    color: #d62828;
-    text-decoration: none;
-  }
 
-  #contact ol li a:hover {
-    color: #f77f00;
-  }
+/* Contact Section */
+#contact h2 {
+  color: #003049;
+  font-size: 2em;
+  text-align: center;
+}
 
+#contact p {
+  color: #003049;
+  margin-left: 25%;
+}
+
+#contact ol {
+  text-align: left;
+  margin-left: 25%;
+}
+
+#contact ol {
+  list-style-type: decimal;
+}
+
+#contact ol li a {
+  color: #d62828;
+  text-decoration: none;
+}
+
+#contact ol li a:hover {
+  color: #f77f00;
+}
