@@ -1,0 +1,97 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eae2b7;
+  line-height: 1.6;
+}
+
+/* Header and Footer */
+header, footer {
+  text-align: center;
+  background-color: #003049;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #f77f00;
+}
+
+/* About Section */
+#about h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#about h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#about p, #about ul {
+  text-align: center;
+}
+
+.image-circle {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+
+/* Portfolio Section */
+#portfolio h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#portfolio h3 {
+  font-size: 1.5em;
+  text-align: center;#portfolio img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Contact Section */
+  #contact h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  #contact p, #contact ol {
+    text-align: center;
+  }
+
+  #contact ol {
+    list-style-type: decimal;
+  }
+
+  #contact ol li a {
+    color: #d62828;
+    text-decoration: none;
+  }
+
+  #contact ol li a:hover {
+    color: #f77f00;
+  }
+
