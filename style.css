@@ -60,7 +60,7 @@ nav ul li a:hover {
   text-align: left;
   margin-left: 30%;
   color: #003049;
-  align-items: left;
+  
 }
 
 #about p a {
@@ -75,7 +75,7 @@ nav ul li a:hover {
 
 hr {
   border: 1px solid black;
-  width: 50%;
+  width: 25%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -85,6 +85,7 @@ hr {
   margin: 20px auto;
   border-radius: 50%;
   border: 2px solid #003049;
+  height:auto ;
 }
 
 /* Portfolio Section */
@@ -104,14 +105,16 @@ hr {
   display: block;
   margin: 0 auto;
   align-items: center;
+  width:25%;
+  height:auto;
 }
 
-figcaption {
+#portfolio p {
   text-align: center;
   color: #003049;
   margin-top: 5%;
   margin-bottom: 5%;
-  font-size: x-large;
+  font-size: medium;
 }
 
 
